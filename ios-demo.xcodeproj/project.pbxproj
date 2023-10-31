@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18ED4B1175AF75D01B513F2D /* GanTableSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED481331B28F7C0C3E3493 /* GanTableSectionModel.m */; };
+		3204BC332AEF3CEF00F848C9 /* BasicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204BC322AEF3CEF00F848C9 /* BasicsViewController.m */; };
+		3204BC362AEF531100F848C9 /* GanSubtitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204BC352AEF531100F848C9 /* GanSubtitleTableViewCell.m */; };
+		3204BC3A2AEF5C5200F848C9 /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204BC392AEF5C5200F848C9 /* BlockView.m */; };
+		3204BC3D2AEF5E2100F848C9 /* BlockDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204BC3C2AEF5E2100F848C9 /* BlockDemo1ViewController.m */; };
 		32A644842AED6636006C0C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644832AED6636006C0C84 /* AppDelegate.m */; };
 		32A644872AED6636006C0C84 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644862AED6636006C0C84 /* SceneDelegate.m */; };
 		32A6448A2AED6636006C0C84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644892AED6636006C0C84 /* ViewController.m */; };
@@ -17,6 +22,8 @@
 		32A6449F2AED6637006C0C84 /* ios_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6449E2AED6637006C0C84 /* ios_demoTests.m */; };
 		32A644A92AED6637006C0C84 /* ios_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644A82AED6637006C0C84 /* ios_demoUITests.m */; };
 		32A644AB2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644AA2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m */; };
+		32BC8E7B2AF0784D00BCA001 /* BlockDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC8E792AF0784D00BCA001 /* BlockDemo2ViewController.m */; };
+		32BC8E7C2AF0784D00BCA001 /* BlockDemo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BC8E7A2AF0784D00BCA001 /* BlockDemo2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18ED481331B28F7C0C3E3493 /* GanTableSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GanTableSectionModel.m; sourceTree = "<group>"; };
+		18ED4F0EF10D1799657BDF7B /* GanTableSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GanTableSectionModel.h; sourceTree = "<group>"; };
+		3204BC312AEF3CEF00F848C9 /* BasicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicsViewController.h; sourceTree = "<group>"; };
+		3204BC322AEF3CEF00F848C9 /* BasicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicsViewController.m; sourceTree = "<group>"; };
+		3204BC342AEF531100F848C9 /* GanSubtitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GanSubtitleTableViewCell.h; sourceTree = "<group>"; };
+		3204BC352AEF531100F848C9 /* GanSubtitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GanSubtitleTableViewCell.m; sourceTree = "<group>"; };
+		3204BC382AEF5C5200F848C9 /* BlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		3204BC392AEF5C5200F848C9 /* BlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
+		3204BC3B2AEF5E2100F848C9 /* BlockDemo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo1ViewController.h; sourceTree = "<group>"; };
+		3204BC3C2AEF5E2100F848C9 /* BlockDemo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo1ViewController.m; sourceTree = "<group>"; };
 		32A6447F2AED6636006C0C84 /* ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A644822AED6636006C0C84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32A644832AED6636006C0C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +71,9 @@
 		32A644A42AED6637006C0C84 /* ios-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A644A82AED6637006C0C84 /* ios_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_demoUITests.m; sourceTree = "<group>"; };
 		32A644AA2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_demoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		32BC8E782AF0784D00BCA001 /* BlockDemo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo2ViewController.h; sourceTree = "<group>"; };
+		32BC8E792AF0784D00BCA001 /* BlockDemo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo2ViewController.m; sourceTree = "<group>"; };
+		32BC8E7A2AF0784D00BCA001 /* BlockDemo2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockDemo2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3204BC2A2AEF372C00F848C9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18ED481331B28F7C0C3E3493 /* GanTableSectionModel.m */,
+				18ED4F0EF10D1799657BDF7B /* GanTableSectionModel.h */,
+				3204BC312AEF3CEF00F848C9 /* BasicsViewController.h */,
+				3204BC322AEF3CEF00F848C9 /* BasicsViewController.m */,
+				3204BC342AEF531100F848C9 /* GanSubtitleTableViewCell.h */,
+				3204BC352AEF531100F848C9 /* GanSubtitleTableViewCell.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3204BC372AEF5C1C00F848C9 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				3204BC382AEF5C5200F848C9 /* BlockView.h */,
+				3204BC392AEF5C5200F848C9 /* BlockView.m */,
+				3204BC3B2AEF5E2100F848C9 /* BlockDemo1ViewController.h */,
+				3204BC3C2AEF5E2100F848C9 /* BlockDemo1ViewController.m */,
+				32BC8E782AF0784D00BCA001 /* BlockDemo2ViewController.h */,
+				32BC8E792AF0784D00BCA001 /* BlockDemo2ViewController.m */,
+				32BC8E7A2AF0784D00BCA001 /* BlockDemo2ViewController.xib */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
 		32A644762AED6635006C0C84 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +151,8 @@
 		32A644812AED6636006C0C84 /* ios-demo */ = {
 			isa = PBXGroup;
 			children = (
+				3204BC372AEF5C1C00F848C9 /* Block */,
+				3204BC2A2AEF372C00F848C9 /* Main */,
 				32A644822AED6636006C0C84 /* AppDelegate.h */,
 				32A644832AED6636006C0C84 /* AppDelegate.m */,
 				32A644852AED6636006C0C84 /* SceneDelegate.h */,
@@ -239,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BC8E7C2AF0784D00BCA001 /* BlockDemo2ViewController.xib in Resources */,
 				32A644922AED6637006C0C84 /* LaunchScreen.storyboard in Resources */,
 				32A6448F2AED6637006C0C84 /* Assets.xcassets in Resources */,
 				32A6448D2AED6636006C0C84 /* Main.storyboard in Resources */,
@@ -266,10 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BC8E7B2AF0784D00BCA001 /* BlockDemo2ViewController.m in Sources */,
+				3204BC3D2AEF5E2100F848C9 /* BlockDemo1ViewController.m in Sources */,
+				3204BC332AEF3CEF00F848C9 /* BasicsViewController.m in Sources */,
+				3204BC362AEF531100F848C9 /* GanSubtitleTableViewCell.m in Sources */,
 				32A6448A2AED6636006C0C84 /* ViewController.m in Sources */,
 				32A644842AED6636006C0C84 /* AppDelegate.m in Sources */,
 				32A644952AED6637006C0C84 /* main.m in Sources */,
+				3204BC3A2AEF5C5200F848C9 /* BlockView.m in Sources */,
 				32A644872AED6636006C0C84 /* SceneDelegate.m in Sources */,
+				18ED4B1175AF75D01B513F2D /* GanTableSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +512,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +540,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +561,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H6GCWZCE8G;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ganzhixiog.ios-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,7 +579,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H6GCWZCE8G;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ganzhixiog.ios-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

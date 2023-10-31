@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BlockDemo1ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // 创建您的初始视图控制器
+//    UIViewController *initialViewController = [[BlockDemo1ViewController alloc] init]; // 替换为您自己的初始视图控制器类
+//    // 设置初始视图控制器
+//    self.window.rootViewController = initialViewController;
+//    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
