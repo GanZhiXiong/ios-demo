@@ -22,6 +22,11 @@
 		32A6449F2AED6637006C0C84 /* ios_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A6449E2AED6637006C0C84 /* ios_demoTests.m */; };
 		32A644A92AED6637006C0C84 /* ios_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644A82AED6637006C0C84 /* ios_demoUITests.m */; };
 		32A644AB2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A644AA2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m */; };
+		32A732F02AFE1D7A005526E2 /* GCDDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A732EE2AFE1D7A005526E2 /* GCDDemo1ViewController.m */; };
+		32A732F12AFE1D7A005526E2 /* GCDDemo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32A732EF2AFE1D7A005526E2 /* GCDDemo1ViewController.xib */; };
+		32B02CD92B01AD2600299D1A /* NativeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02CD82B01AD2600299D1A /* NativeMessage.m */; };
+		32B02CDC2B01B29400299D1A /* NSObject+JSONTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02CDB2B01B29400299D1A /* NSObject+JSONTool.m */; };
+		32B02CEB2B01BCD000299D1A /* JsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02CEA2B01BCD000299D1A /* JsonTests.m */; };
 		32BC8E7B2AF0784D00BCA001 /* BlockDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC8E792AF0784D00BCA001 /* BlockDemo2ViewController.m */; };
 		32BC8E7C2AF0784D00BCA001 /* BlockDemo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BC8E7A2AF0784D00BCA001 /* BlockDemo2ViewController.xib */; };
 /* End PBXBuildFile section */
@@ -71,6 +76,14 @@
 		32A644A42AED6637006C0C84 /* ios-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A644A82AED6637006C0C84 /* ios_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_demoUITests.m; sourceTree = "<group>"; };
 		32A644AA2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_demoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		32A732ED2AFE1D7A005526E2 /* GCDDemo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDemo1ViewController.h; sourceTree = "<group>"; };
+		32A732EE2AFE1D7A005526E2 /* GCDDemo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDemo1ViewController.m; sourceTree = "<group>"; };
+		32A732EF2AFE1D7A005526E2 /* GCDDemo1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDDemo1ViewController.xib; sourceTree = "<group>"; };
+		32B02CD72B01AD2600299D1A /* NativeMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeMessage.h; sourceTree = "<group>"; };
+		32B02CD82B01AD2600299D1A /* NativeMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeMessage.m; sourceTree = "<group>"; };
+		32B02CDA2B01B29400299D1A /* NSObject+JSONTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONTool.h"; sourceTree = "<group>"; };
+		32B02CDB2B01B29400299D1A /* NSObject+JSONTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONTool.m"; sourceTree = "<group>"; };
+		32B02CEA2B01BCD000299D1A /* JsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonTests.m; sourceTree = "<group>"; };
 		32BC8E782AF0784D00BCA001 /* BlockDemo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo2ViewController.h; sourceTree = "<group>"; };
 		32BC8E792AF0784D00BCA001 /* BlockDemo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo2ViewController.m; sourceTree = "<group>"; };
 		32BC8E7A2AF0784D00BCA001 /* BlockDemo2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockDemo2ViewController.xib; sourceTree = "<group>"; };
@@ -151,6 +164,8 @@
 		32A644812AED6636006C0C84 /* ios-demo */ = {
 			isa = PBXGroup;
 			children = (
+				32B02CD62B01ACFC00299D1A /* Json */,
+				32A732EC2AFE1D2F005526E2 /* GCD */,
 				3204BC372AEF5C1C00F848C9 /* Block */,
 				3204BC2A2AEF372C00F848C9 /* Main */,
 				32A644822AED6636006C0C84 /* AppDelegate.h */,
@@ -172,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				32A6449E2AED6637006C0C84 /* ios_demoTests.m */,
+				32B02CEA2B01BCD000299D1A /* JsonTests.m */,
 			);
 			path = "ios-demoTests";
 			sourceTree = "<group>";
@@ -183,6 +199,27 @@
 				32A644AA2AED6637006C0C84 /* ios_demoUITestsLaunchTests.m */,
 			);
 			path = "ios-demoUITests";
+			sourceTree = "<group>";
+		};
+		32A732EC2AFE1D2F005526E2 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				32A732ED2AFE1D7A005526E2 /* GCDDemo1ViewController.h */,
+				32A732EE2AFE1D7A005526E2 /* GCDDemo1ViewController.m */,
+				32A732EF2AFE1D7A005526E2 /* GCDDemo1ViewController.xib */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		32B02CD62B01ACFC00299D1A /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				32B02CD72B01AD2600299D1A /* NativeMessage.h */,
+				32B02CD82B01AD2600299D1A /* NativeMessage.m */,
+				32B02CDA2B01B29400299D1A /* NSObject+JSONTool.h */,
+				32B02CDB2B01B29400299D1A /* NSObject+JSONTool.m */,
+			);
+			path = Json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +328,7 @@
 				32BC8E7C2AF0784D00BCA001 /* BlockDemo2ViewController.xib in Resources */,
 				32A644922AED6637006C0C84 /* LaunchScreen.storyboard in Resources */,
 				32A6448F2AED6637006C0C84 /* Assets.xcassets in Resources */,
+				32A732F12AFE1D7A005526E2 /* GCDDemo1ViewController.xib in Resources */,
 				32A6448D2AED6636006C0C84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,11 +355,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				32BC8E7B2AF0784D00BCA001 /* BlockDemo2ViewController.m in Sources */,
+				32A732F02AFE1D7A005526E2 /* GCDDemo1ViewController.m in Sources */,
+				32B02CD92B01AD2600299D1A /* NativeMessage.m in Sources */,
 				3204BC3D2AEF5E2100F848C9 /* BlockDemo1ViewController.m in Sources */,
 				3204BC332AEF3CEF00F848C9 /* BasicsViewController.m in Sources */,
 				3204BC362AEF531100F848C9 /* GanSubtitleTableViewCell.m in Sources */,
 				32A6448A2AED6636006C0C84 /* ViewController.m in Sources */,
 				32A644842AED6636006C0C84 /* AppDelegate.m in Sources */,
+				32B02CDC2B01B29400299D1A /* NSObject+JSONTool.m in Sources */,
 				32A644952AED6637006C0C84 /* main.m in Sources */,
 				3204BC3A2AEF5C5200F848C9 /* BlockView.m in Sources */,
 				32A644872AED6636006C0C84 /* SceneDelegate.m in Sources */,
@@ -334,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A6449F2AED6637006C0C84 /* ios_demoTests.m in Sources */,
+				32B02CEB2B01BCD000299D1A /* JsonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

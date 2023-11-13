@@ -31,7 +31,8 @@ static NSString *kIdentifier = @"kIdentifier";
 //    NSLog([NSString stringWithFormat:@"%@x", 123]);
 //    NSLog([NSString stringWithFormat:@"%ix", 123]);
 
-    NSString *viewControllerName = @"BlockDemo1ViewController";
+//    NSString *viewControllerName = @"BlockDemo1ViewController";
+    NSString *viewControllerName = @"GCDDemo1ViewController";
     UIViewController *viewController = [[NSClassFromString(viewControllerName) alloc] init];
 //    viewController.navigationItem.title = item.title;
     viewController.hidesBottomBarWhenPushed = YES;
@@ -40,7 +41,7 @@ static NSString *kIdentifier = @"kIdentifier";
 
 - (NSArray <GanTableItem *> *)createThreadItems {
     return @[[GanTableItem itemWithTitle:@"Thread" subTitle:nil viewControllerName:@"ZFNormalViewController"],
-            [GanTableItem itemWithTitle:@"GCD" subTitle:nil viewControllerName:@"ZFAutoPlayerViewController"],
+            [GanTableItem itemWithTitle:@"GCD" subTitle:nil viewControllerName:@"GCDDemo1ViewController"],
             [GanTableItem itemWithTitle:@"NSOperation" subTitle:nil viewControllerName:@"ZFCollectionViewController"],
             [GanTableItem itemWithTitle:@"NSLock" subTitle:nil viewControllerName:@"ZFScrollViewViewController"]];
 }
